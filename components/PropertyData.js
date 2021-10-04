@@ -1,9 +1,15 @@
 export const PropertyData = [
   {
-    id:"londonberry-plaza",
-    number:1,
-    propertyType:"Commercial",
-    image:"",
+    id: "londonberry-plaza",
+    number: 1,
+    propertyType: "Commercial",
+    image: [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2340&q=80",
+      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    ],
     propertyName: "Londonberry Plaza",
     location: "24914 Kuykendahl Spring, TX",
     description:
@@ -12,9 +18,10 @@ export const PropertyData = [
     featured: true,
   },
   {
-    id:"cypress-plaza",
-    number:2,
-    propertyType:"Commercial",
+    id: "cypress-plaza",
+    number: 2,
+    propertyType: "Commercial",
+    image: [],
     propertyName: "Cypress Plaza",
     location: "18037 FM 529 Cypress, TX. 77433",
     description:
@@ -23,9 +30,10 @@ export const PropertyData = [
     featured: true,
   },
   {
-    id:"tuscan-village-plaza",
-    number:2,
-    propertyType:"Commercial",
+    id: "tuscan-village-plaza",
+    number: 2,
+    image: [],
+    propertyType: "Commercial",
     propertyName: "Tuscan Village Plaza",
     location: "7214 FM 1488 Magnolia, TX. 77354",
     description:

@@ -22,6 +22,7 @@ export default function PropertyGrid() {
             PropertyData.map((data, key) => 
             <PropertyCard 
             key={key}
+            id={data.id}
             name={data.propertyName}
             location={data.location}
             description={data.description}
