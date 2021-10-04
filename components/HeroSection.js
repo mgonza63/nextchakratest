@@ -12,7 +12,7 @@ import {
 export default function HeroSection() {
   return (
     <Container maxW="container.xl">
-      <Flex direction={{base: "column", lg:"row"}} pb="4em">
+      <Flex direction={{base: "column", lg:"row"}} py="4em">
         <Stack flex="1">
           <Heading as="h1" fontSize={{base:"6xl", sm:"7xl"}} lineHeight="1.125" pb="4px" maxW="20ch">
             Find The Right Space For You.
@@ -21,7 +21,7 @@ export default function HeroSection() {
             We are a Houston-based Real Estate company maintaining top building
             standards for our tenants.
           </Text>
-          <Stack direction="row" pb= {{base: "1.25em", lg: "0"}}>
+          <Stack direction="row" pb="2.25em">
             <Button colorScheme="yellow" size="lg" mr="0.5em">
               Commercial
             </Button>
