@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import useSWR from "swr";
+import { Container, Grid, GridItem, Text } from "@chakra-ui/react";
 
 const fetcher = async (url) => {
   const res = await fetch(url);
@@ -31,8 +32,26 @@ export default function Person() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      {data.image[0] ? <img src={data.image[0]} /> : <div>No Image</div>}
-      <h1>{data.propertyName}</h1>
+      <Container maxW="container.xl">
+        {data.image[0] ? <img src={data.image[0]} /> : <div>No Image</div>}
+        <Grid templateColumns={{base:"repeat(1, 1fr)", md:"repeat(2, 1fr)"}} gap={6} py="2em">
+          <GridItem border="5px" borderColor="yellow" borderRadius="xl">
+            <iframe
+              borderRadius="xl"
+              src={`${data.map}`}
+              width="100%"
+              height="350vw"
+            ></iframe>
+          </GridItem>
+          <GridItem>
+            <Text fontSize="4xl" fontWeight="bold">
+              {data.propertyName}
+            </Text>
+            <Text color="gray.500" fontWeight="semibold">{data.location}</Text>
+            <Text maxW="500px" my="1em" fontSize="lg">{data.description}</Text>
+          </GridItem>
+        </Grid>
+      </Container>
     </div>
   );
 }

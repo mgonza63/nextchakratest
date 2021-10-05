@@ -6,15 +6,21 @@ import {
   Image,
   Flex,
   Text,
-  Button
+  Button,
 } from "@chakra-ui/react";
 
 export default function HeroSection() {
   return (
     <Container maxW="container.xl">
-      <Flex direction={{base: "column", lg:"row"}} py="4em">
+      <Flex direction={{ base: "column", lg: "row" }} py="3em">
         <Stack flex="1">
-          <Heading as="h1" fontSize={{base:"6xl", sm:"7xl"}} lineHeight="1.125" pb="4px" maxW="20ch">
+          <Heading
+            as="h1"
+            fontSize={{ base: "6xl", sm: "7xl" }}
+            lineHeight="1.125"
+            pb="4px"
+            maxW="20ch"
+          >
             Find The Right Space For You.
           </Heading>
           <Text fontSize="lg" lineHeight="1.75" pb="1em" maxW="600px">

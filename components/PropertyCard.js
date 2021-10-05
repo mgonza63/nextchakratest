@@ -5,17 +5,20 @@ import {
   Collapse,
   useDisclosure,
   Button,
+  Text,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { PropertyData } from "./PropertyData";
 
 export default function PropertyCard(props) {
-  const { isOpen, onToggle } = useDisclosure();
+//   const { isOpen, onToggle } = useDisclosure();
 
   return (
     <NextLink href={`/properties/${props.id}`}>
-      <a>
         <Box
+        as="a"
+        cursor="pointer"
+
           overflow="hidden"
           boxShadow="rgba(242, 201, 76, 1) -5px 5px"
           borderRadius="10px"
@@ -56,21 +59,19 @@ export default function PropertyCard(props) {
             >
               {props.location}
             </Box>
-            <Collapse as="p" startingHeight={120} in={isOpen}>
-              {props.description}
-            </Collapse>
+            <Text>
+              {props.shortDescription}
+            </Text>
             <Button
               variant="link"
               size="sm"
-              onClick={onToggle}
-              mt="1rem"
+              mt="2rem"
               opacity="0.75"
             >
-              Show {isOpen ? "Less" : "More"}
+              Learn More
             </Button>
           </Box>
         </Box>
-      </a>
     </NextLink>
   );
 }

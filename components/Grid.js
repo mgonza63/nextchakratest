@@ -3,8 +3,6 @@ import PropertyCard from "./PropertyCard";
 import { PropertyData } from "./PropertyData";
 
 export default function PropertyGrid() {
-    console.log(PropertyData);
-
   return (
     <Container maxW="container.xl" my="4em">
         <Box as="h2" fontSize="4xl" fontWeight="bold" mb="1.25em">
@@ -25,7 +23,7 @@ export default function PropertyGrid() {
             id={data.id}
             name={data.propertyName}
             location={data.location}
-            description={data.description}
+            shortDescription={data.shortDescription}
             available={data.available}/>)
         }
       </Grid>
