@@ -6,6 +6,7 @@ import {
   useDisclosure,
   Button,
   Text,
+  LinkBox,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { PropertyData } from "./PropertyData";
@@ -14,8 +15,8 @@ export default function PropertyCard(props) {
 //   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <NextLink href={`/properties/${props.id}`}>
-        <Box
+    <NextLink href={`/properties/${props.id}`} passHref>
+        <LinkBox
         as="a"
         cursor="pointer"
 
@@ -71,7 +72,7 @@ export default function PropertyCard(props) {
               Learn More
             </Button>
           </Box>
-        </Box>
+        </LinkBox>
     </NextLink>
   );
 }

@@ -2,7 +2,14 @@ import Navbar from "../../components/Navbar";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import { Container, Grid, GridItem, Text } from "@chakra-ui/react";
+import {
+  Container,
+  Grid,
+  GridItem,
+  Text,
+  Image,
+  AspectRatio,
+} from "@chakra-ui/react";
 
 const fetcher = async (url) => {
   const res = await fetch(url);
@@ -33,23 +40,38 @@ export default function Person() {
       </Head>
       <Navbar />
       <Container maxW="container.xl">
-        {data.image[0] ? <img src={data.image[0]} /> : <div>No Image</div>}
-        <Grid templateColumns={{base:"repeat(1, 1fr)", md:"repeat(2, 1fr)"}} gap={6} py="2em">
-          <GridItem border="5px" borderColor="yellow" borderRadius="xl">
-            <iframe
-              borderRadius="xl"
-              src={`${data.map}`}
-              width="100%"
-              height="350vw"
-            ></iframe>
-          </GridItem>
+        {data.thumbnail ? <img src={data.thumbnail} /> : <div>No Image</div>}
+        <Grid
+          templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
+          gap={5}
+          py="2em"
+        >
+          {data.image.map((image) => (
+            <AspectRatio>
+              <Image src={image} />
+            </AspectRatio>
+          ))}
+        </Grid>
+
+        <Grid
+          templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
+          gap={6}
+          py="2em"
+        >
           <GridItem>
             <Text fontSize="4xl" fontWeight="bold">
               {data.propertyName}
             </Text>
-            <Text color="gray.500" fontWeight="semibold">{data.location}</Text>
-            <Text maxW="500px" my="1em" fontSize="lg">{data.description}</Text>
+            <Text color="gray.500" fontWeight="semibold">
+              {data.location}
+            </Text>
+            <Text maxW="500px" my="1em" fontSize="lg">
+              {data.description}
+            </Text>
           </GridItem>
+          <AspectRatio >
+            <iframe src={`${data.map}`} width="100%" height="350vw"></iframe>
+          </AspectRatio>
         </Grid>
       </Container>
     </div>
