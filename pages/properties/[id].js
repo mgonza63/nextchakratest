@@ -9,7 +9,16 @@ import {
   Text,
   Image,
   AspectRatio,
+  Divider,
+  Center,
+  Stat,
+  StatLabel,
+  StatNumber,
+  StatHelpText,
+  StatArrow,
+  StatGroup,
 } from "@chakra-ui/react";
+import Lightbox from "../../components/Lightbox";
 
 const fetcher = async (url) => {
   const res = await fetch(url);
@@ -46,11 +55,12 @@ export default function Person() {
           gap={5}
           py="2em"
         >
-          {data.image.map((image) => (
+          {data.images.map((image) => (
             <AspectRatio>
               <Image src={image} />
             </AspectRatio>
           ))}
+          <Lightbox gallery={data.images} />
         </Grid>
 
         <Grid
@@ -67,9 +77,34 @@ export default function Person() {
             </Text>
             <Text maxW="500px" my="1em" fontSize="lg">
               {data.description}
+              <Divider pb="1em" />
+
             </Text>
+            {/* <Center height="50px">
+              <Divider orientation="vertical" />
+            </Center> */}
+            <StatGroup>
+            <Stat pb="1em">
+                <StatLabel>Building Size</StatLabel>
+                <StatNumber>11,249 SF</StatNumber>
+              </Stat>
+              <Stat>
+                <StatLabel>Year Built</StatLabel>
+                <StatNumber>2019</StatNumber>
+              </Stat>
+            </StatGroup>
+            <StatGroup>
+            <Stat>
+                <StatLabel>Property Type</StatLabel>
+                <StatNumber>Commercial</StatNumber>
+              </Stat>
+              <Stat>
+                <StatLabel>Retail Space Status</StatLabel>
+                <StatNumber>Full</StatNumber>
+              </Stat>
+            </StatGroup>
           </GridItem>
-          <AspectRatio >
+          <AspectRatio>
             <iframe src={`${data.map}`} width="100%" height="350vw"></iframe>
           </AspectRatio>
         </Grid>

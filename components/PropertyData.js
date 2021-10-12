@@ -5,13 +5,13 @@ export const PropertyData = [
     propertyType: "Commercial",
     thumbnail:
       "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2340&q=80",
-    image: [
+    images: [
       "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
       "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 
     ],
     propertyName: "Londonberry Plaza",
@@ -29,7 +29,7 @@ export const PropertyData = [
     id: "cypress-plaza",
     number: 2,
     propertyType: "Commercial",
-    image: [],
+    images: [],
     propertyName: "Cypress Plaza",
     location: "18037 FM 529 Cypress, TX. 77433",
     shortDescription:
@@ -43,7 +43,7 @@ export const PropertyData = [
   {
     id: "tuscan-village-plaza",
     number: 2,
-    image: [],
+    images: [],
     propertyType: "Commercial",
     propertyName: "Tuscan Village Plaza",
     location: "7214 FM 1488 Magnolia, TX. 77354",
