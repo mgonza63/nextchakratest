@@ -3,7 +3,7 @@ import NextLink from "next/link";
 
 export default function Footer() {
   return (
-    <Box borderTop="1px" borderColor="gray.100" pt="1.5em">
+    <Box borderTop="1px" borderColor="gray.100" pt="1.5em" mt="5em">
       <Container maxW="container.xl">
           <Flex borderBottom="1px" borderColor="gray.100" >
         <NextLink href="/">

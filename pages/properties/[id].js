@@ -15,6 +15,8 @@ import {
   StatNumber,
   StatGroup,
 } from "@chakra-ui/react";
+import Footer from "../../components/Footer";
+import UnitContact from "../../components/UnitContact"
 import Lightbox from "../../components/Lightbox";
 
 const fetcher = async (url) => {
@@ -45,7 +47,7 @@ export default function Person() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Container maxW="container.xl">
+      <Container maxW="container.xl" my="1em">
         {data.thumbnail ? <img src={data.thumbnail} /> : <div>No Image</div>}
         <Grid
           templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
@@ -101,11 +103,15 @@ export default function Person() {
               </Stat>
             </StatGroup>
           </GridItem>
+          
           <AspectRatio>
             <iframe src={`${data.map}`} width="100%" height="350vw"></iframe>
           </AspectRatio>
+          <UnitContact unitName={data.propertyName}/>
+
         </Grid>
       </Container>
+      <Footer />
     </div>
   );
 }
