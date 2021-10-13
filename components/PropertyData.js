@@ -20,7 +20,10 @@ export const PropertyData = [
       "Located at the edge of The Woodlands and Tomball Tx. This strip mall is minutes distance to the Exxon offices, The Woodlands facilities and the new FM 99 Grand Parkway.",
     description:
       "Located at the edge of The Woodlands and Tomball Tx. This strip mall is minutes distance to the Exxon offices, The Woodlands facilities and the new FM 99 Grand Parkway. This traditional design strip mall suites 3 franchises including Pizza Hut and 9Round, Hair cut store and the famous Mexican Restaurant “El Chaparro”.",
+    buildingSize: "",
     yearBuilt: "",
+    propertyType: "",
+    retailStatus: "",
     map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3450.9808667405564!2d-95.55570468488303!3d30.123360981853647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473205714ae99b%3A0x8a1097e3f3a44bea!2s24914%20Kuykendahl%20Rd%2C%20Spring%2C%20TX%2077389!5e0!3m2!1sen!2sus!4v1633399417822!5m2!1sen!2sus",
     available: true,
     featured: true,

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import PropertyGrid from '../components/Grid'
-
+import Contact from '../components/Contact'
 export default function Home() {
   return (
       <div>
@@ -14,6 +14,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <PropertyGrid />
+      <Contact />
     </div>
   )
 }

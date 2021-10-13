@@ -10,12 +10,9 @@ import {
   Image,
   AspectRatio,
   Divider,
-  Center,
   Stat,
   StatLabel,
   StatNumber,
-  StatHelpText,
-  StatArrow,
   StatGroup,
 } from "@chakra-ui/react";
 import Lightbox from "../../components/Lightbox";

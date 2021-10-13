@@ -5,7 +5,7 @@ import { PropertyData } from "./PropertyData";
 export default function PropertyGrid() {
   return (
     <Container maxW="container.xl" my="4em">
-        <Box as="h2" fontSize="4xl" fontWeight="bold" mb="1.25em">
+        <Box as="h2" fontSize="4xl" fontWeight="bold" mb="1.5em">
             <Center>
             Featured Listings
             </Center>
