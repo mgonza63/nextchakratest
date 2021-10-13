@@ -5,7 +5,6 @@ import PropertyGrid from '../components/Grid'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 export default function Home() {
-  window.scrollTo({behavior: 'smooth'})
   return (
       <div>
       <Head>
