@@ -59,7 +59,7 @@ export default function Navbar() {
             </MenuList>
           </Menu>
           <Text fontSize="lg" fontWeight="bold" px="2em">
-            <Link>Contact Us</Link>
+            <Link href="#contact">Contact Us</Link>
           </Text>
         </Stack>
         <Button
