@@ -8,7 +8,7 @@ export default function Lightbox(props) {
 
   return (
     <>
-      <button onClick={() => setToggler(!toggler)}>Show All Images <ArrowForwardIcon /> </button>
+      <button onClick={() => setToggler(!toggler)}>Show Full Size Images <ArrowForwardIcon /> </button>
       <FsLightbox
         toggler={toggler}
         sources={props.gallery}

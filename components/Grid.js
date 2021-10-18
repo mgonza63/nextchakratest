@@ -21,6 +21,7 @@ export default function PropertyGrid() {
             <PropertyCard 
             key={key}
             id={data.id}
+            thumbnail={data.thumbnail}
             name={data.propertyName}
             location={data.location}
             shortDescription={data.shortDescription}
