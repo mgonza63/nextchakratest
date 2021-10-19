@@ -7,6 +7,8 @@ export const PropertyData = [
     images: [
       "/dowdell-shopping-center/1.jpg",
       "/dowdell-shopping-center/2.jpg",
+      "/dowdell-shopping-center/3.png",
+
     ],
     propertyName: "Dowdell Shopping Center",
     location: "22920 Kuykendahl, Spring TX 77389",
@@ -27,20 +29,17 @@ export const PropertyData = [
     thumbnail:
       "/wind-rose-center/1.jpeg",
     images: [
-      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "/wind-rose-center/1.jpeg",
+      "/wind-rose-center/2.jpeg",
+      "/wind-rose-center/3.jpeg",
+      "/wind-rose-center/4.jpeg",
+      "/wind-rose-center/5.jpeg",
 
     ],
     propertyName: "Wind Rose Center",
-    location: "7214 FM 1488 Magnolia, TX. 77354",
-    shortDescription:
-      "Located at the booming area of Magnolia TX by FM 1488. Most of all groceries stores and major retails stores and franchises are located in less than 1 mile radius.",
-    description:
-      "Located at the booming area of Magnolia TX by FM 1488. Most of all groceries stores and major retails stores and franchises are located in less than 1 mile radius. New HEB under construction at walking distance. This contemporary strip mall design suites 2 medical offices, ReMax Hometown, Capital Title and one of the best Tex-Mex restaurant on the area “Patron Azteca”.",
+    location: "",
+    shortDescription:"",
+    description: "",
     buildingSize: "",
     yearBuilt: "",
     propertyType: "",
@@ -55,20 +54,18 @@ export const PropertyData = [
     thumbnail:
       "/tuscan-village/1.jpeg",
     images: [
-      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "/tuscan-village/1.jpeg",
+      "/tuscan-village/2.jpeg",
+      "/tuscan-village/3.jpeg",
+      "/tuscan-village/4.jpeg",
+      "/tuscan-village/5.jpeg",
+      "/tuscan-village/6.jpeg",
 
     ],
     propertyName: "Tuscan Village Plaza",
-    location: "7214 FM 1488 Magnolia, TX. 77354",
-    shortDescription:
-      "Located at the booming area of Magnolia TX by FM 1488. Most of all groceries stores and major retails stores and franchises are located in less than 1 mile radius.",
-    description:
-      "Located at the booming area of Magnolia TX by FM 1488. Most of all groceries stores and major retails stores and franchises are located in less than 1 mile radius. New HEB under construction at walking distance. This contemporary strip mall design suites 2 medical offices, ReMax Hometown, Capital Title and one of the best Tex-Mex restaurant on the area “Patron Azteca”.",
+    location: "",
+    shortDescription:"",
+    description:"",
     buildingSize: "",
     yearBuilt: "",
     propertyType: "",
@@ -83,25 +80,18 @@ export const PropertyData = [
     thumbnail:
       "/morton-business-park/1.jpeg",
     images: [
-      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-
+      "/morton-business-park/1.jpeg",
+      "/morton-business-park/2.jpeg",
     ],
     propertyName: "Morton Business Park",
     location: "7214 FM 1488 Magnolia, TX. 77354",
-    shortDescription:
-      "Located at the booming area of Magnolia TX by FM 1488. Most of all groceries stores and major retails stores and franchises are located in less than 1 mile radius.",
-    description:
-      "Located at the booming area of Magnolia TX by FM 1488. Most of all groceries stores and major retails stores and franchises are located in less than 1 mile radius. New HEB under construction at walking distance. This contemporary strip mall design suites 2 medical offices, ReMax Hometown, Capital Title and one of the best Tex-Mex restaurant on the area “Patron Azteca”.",
+    shortDescription:"",
+    description:"",
     buildingSize: "",
     yearBuilt: "",
     propertyType: "",
     retailStatus: "",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.5511937669876!2d-95.5811114488983!3d30.22135448172897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86472ff4390025c1%3A0x764e4becd191af29!2s7214%20Farm%20to%20Market%20Rd%201488%2C%20Magnolia%2C%20TX%2077354!5e0!3m2!1sen!2sus!4v1633402489074!5m2!1sen!2sus",
+    map: "",
     available: true,
     featured: true,
   },
