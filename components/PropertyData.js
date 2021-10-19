@@ -1,30 +1,23 @@
 export const PropertyData = [
   {
-    id: "londonberry-plaza",
-    number: 1,
+    id: "dowdell-shopping-center",
     propertyType: "Commercial",
     thumbnail:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2340&q=80",
+      "/dowdell-shopping-center/1.jpg",
     images: [
-      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-
+      "/dowdell-shopping-center/1.jpg",
+      "/dowdell-shopping-center/2.jpg",
     ],
-    propertyName: "Londonberry Plaza",
-    location: "24914 Kuykendahl Spring, TX",
+    propertyName: "Dowdell Shopping Center",
+    location: "22920 Kuykendahl, Spring TX 77389",
     shortDescription:
-      "Located at the edge of The Woodlands and Tomball Tx. This strip mall is minutes distance to the Exxon offices, The Woodlands facilities and the new FM 99 Grand Parkway.",
-    description:
-      "Located at the edge of The Woodlands and Tomball Tx. This strip mall is minutes distance to the Exxon offices, The Woodlands facilities and the new FM 99 Grand Parkway. This traditional design strip mall suites 3 franchises including Pizza Hut and 9Round, Hair cut store and the famous Mexican Restaurant “El Chaparro”.",
-    buildingSize: "",
+      "Location, location, location. Booming area on Kuykendahl Rd in Spring TX Dowdell Center located at 1 mile north of GRAND PARKWAY MARKETPLACE.",
+    description:"Location, location, location. Booming area on Kuykendahl Rd in Spring TX Dowdell Center located at 1 mile north of GRAND PARKWAY MARKETPLACE. Minutes distance to The Woodlands and to the New Exxon Offices. Multiple new Residential and Apartment developments under construction.",
+    buildingSize: "12,000 SF",
     yearBuilt: "",
-    propertyType: "",
+    propertyType: "Commercial",
     retailStatus: "",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3450.9808667405564!2d-95.55570468488303!3d30.123360981853647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473205714ae99b%3A0x8a1097e3f3a44bea!2s24914%20Kuykendahl%20Rd%2C%20Spring%2C%20TX%2077389!5e0!3m2!1sen!2sus!4v1633399417822!5m2!1sen!2sus",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.853705243658!2d-95.54083528488363!3d30.098375881862765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8647325d0fc1f9eb%3A0x58647f317918f8ee!2s22920%20Kuykendahl%20Rd%2C%20Spring%2C%20TX%2077389!5e0!3m2!1sen!2sus!4v1634667085098!5m2!1sen!2sus",
     available: true,
     featured: true,
   },

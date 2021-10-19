@@ -3,6 +3,9 @@ import PropertyCard from "./PropertyCard";
 import { PropertyData } from "./PropertyData";
 
 export default function PropertyGrid() {
+
+  const featureProperties = PropertyData.slice(0, 3);
+
   return (
     <Container maxW="container.xl" my="4em">
         <Box as="h2" fontSize="4xl" fontWeight="bold" mb="1.5em">
@@ -17,7 +20,7 @@ export default function PropertyGrid() {
       >
 
         {
-            PropertyData.map((data, key) => 
+            featureProperties.map((data, key) => 
             <PropertyCard 
             key={key}
             id={data.id}

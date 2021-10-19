@@ -18,7 +18,7 @@ import {
 import Footer from "../../components/Footer";
 import UnitContact from "../../components/UnitContact"
 import Lightbox from "../../components/Lightbox";
-
+import { MinusIcon } from "@chakra-ui/icons";
 const fetcher = async (url) => {
   const res = await fetch(url);
   const data = await res.json();
@@ -85,21 +85,21 @@ export default function Person() {
             <StatGroup>
             <Stat pb="1em">
                 <StatLabel>Building Size</StatLabel>
-                <StatNumber>11,249 SF</StatNumber>
+                <StatNumber>{data.buildingSize ? data.buildingSize : <MinusIcon />}</StatNumber>
               </Stat>
               <Stat>
                 <StatLabel>Year Built</StatLabel>
-                <StatNumber>2019</StatNumber>
+                <StatNumber>{data.yearBuilt ? data.yearBuilt : <MinusIcon />}</StatNumber>
               </Stat>
             </StatGroup>
             <StatGroup>
             <Stat>
                 <StatLabel>Property Type</StatLabel>
-                <StatNumber>Commercial</StatNumber>
+                <StatNumber>{data.propertyType ? data.propertyType : <MinusIcon />}</StatNumber>
               </Stat>
               <Stat>
                 <StatLabel>Retail Space Status</StatLabel>
-                <StatNumber>Full</StatNumber>
+                <StatNumber>{data.retailStatus ? data.retailStatus : <MinusIcon />}</StatNumber>
               </Stat>
             </StatGroup>
           </GridItem>
