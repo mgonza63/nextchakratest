@@ -8,6 +8,7 @@ import {
   Text,
   Button,
 } from "@chakra-ui/react";
+import NextLink from 'next/link'
 
 export default function HeroSection() {
   return (
@@ -28,12 +29,16 @@ export default function HeroSection() {
             standards for our tenants.
           </Text>
           <Stack direction="row" pb="2.25em">
-            <Button colorScheme="yellow" size="lg" mr="0.5em">
-              Commercial
-            </Button>
-            <Button colorScheme="yellow" size="lg">
-              Residential
-            </Button>
+            <NextLink href="/properties" passHref>
+              <Button colorScheme="yellow" size="lg" mr="0.5em">
+                Commercial
+              </Button>
+            </NextLink>
+            <NextLink href="/properties" passHref>
+              <Button colorScheme="yellow" size="lg">
+                Residential
+              </Button>
+            </NextLink>
           </Stack>
         </Stack>
         <Box flex="1">
